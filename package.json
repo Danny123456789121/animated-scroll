@@ -24,7 +24,5 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "gh-pages": "^6.1.1",
     "vite": "^4.4.5"
-  },
-  "homepage": "https://Danny123456789121.github.io/animated-scroll/"
-
+  }
 }

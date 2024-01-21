@@ -13,7 +13,7 @@ const Showcase = () => {
     const frameCount = 100;
     let frameStart = 1;
 
-    const currentFrame = (index) => `/images2/${index.toString().padStart(4, '0')}.jpg`;
+    const currentFrame = (index) => `${import.meta.env.BASE_URL}/images2/${index.toString().padStart(4, '0')}.jpg`;
 
     const preloadImages = () => {
         for (let i = frameStart; i < frameCount; i++) {
