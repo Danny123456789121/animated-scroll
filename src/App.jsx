@@ -1,13 +1,16 @@
 import React from "react";
-import {ImageCanvas} from "./ImageCanvas.jsx";
-import Showcase from "./Showcase.jsx";
+import AnimationSection from "./AnimationSection.jsx";
 
 
 const App = () => (
     <main>
-        <Showcase/>
-        <div className="content">
-            <h1>A better Showcase</h1>
+        <AnimationSection frameCount={100} imagesPath={"images2/"} imageType={"jpg"}/>
+        <div className="text">
+            <h1> TEST</h1>
+        </div>
+        <AnimationSection frameCount={100} imagesPath={"images2/"} imageType={"jpg"}/>
+        <div className="text">
+            <h1> TEST</h1>
         </div>
     </main>
 );
