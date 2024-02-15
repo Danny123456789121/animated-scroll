@@ -5,13 +5,22 @@ html {
 }
 
 body {
-    background: #000;
+    background: #101010;
     margin: 0 !important;
     padding: 0 !important;
+    overflow-x: hidden; /* Add this line */
+
 }
 
 .text {
-    background-color: #000000;
-    color: white;
+    font-family: "Arial", serif;
+    width: 100%;
+    background-color: #101010FF;
+    color: #cccccc;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
