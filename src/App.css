@@ -22,5 +22,12 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    max-width: 800px;
+    margin: auto;
+    flex-direction: column;
+}
 
+h2 {
+    background-color: transparent;
+    text-shadow: 2px 2px 2px #CE5937;
 }

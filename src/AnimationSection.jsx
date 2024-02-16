@@ -69,15 +69,13 @@ const AnimationSection = (props) => {
             },
         });
 
-        // Add fade out effect to the text
         tl.fromTo(
             textRef.current,
             { opacity: 1 },
-            { opacity: 0, duration: 0.3 },
+            { opacity: 0, duration: props.textFadeDuration || 0.3},
             0
         );
 
-        // Add animation to change the frame
         tl.to(
             currentFrame,
             {
